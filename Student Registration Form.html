@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Student Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label for="name">Name*:
+            <input type="text" id="name" name="name" required>
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="email">Email*:
+                <input type="email" id="email" name="email" required>
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="number">Phone Number*:
+                <input type="number(10)" id="number"  name="number" required>
+            </label>
+            &emsp;&emsp;<br><br><br><br><br><br>
+            <label for="bod">Birth Of Date*:
+                <input type="date" id="bod" name="bod" required>
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <label for="password">Password*:
+                <input type="password" id="password" name="password" required>
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <label for="confirm-password">Confirm Password:
+                <input type="password" id="confirm-password" name="confirm-password">
+            </label>
+            <br><br><br><br><br><br>
+            <label for="gender">Gender:
+                <input type="checkbox" id="gender" name="gender" value="Male" checked>Male
+                <input type="checkbox" id="gender" name="gender" value="Female">Female
+                <input type="checkbox" id="gender" name="gender" value="Transgender">Transgender
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <label for="course">Course:
+                <select>
+                    <option id="course">Fitter</option>
+                    <option id="course">Electrition</option>
+                    <option id="course" selected>Computer Operator & Pragraming Assistant</option>
+                    <option id="course">Hardware & Software Operator</option>
+                </select>
+            </label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="skill">Skill:
+                <input type="checkbox" id="skill" name="skill">Python
+                <input type="checkbox" id="skill" name="skill" checked>Web Developer
+                <input type="checkbox" id="skill" name="skill">Programmer
+                <input type="checkbox" id="skill" name="skill">AI
+            </label>
+            <br><br><br><br><br><br>
+            <label for="textarea">Text Area:
+            <textarea id="textarea"></textarea></label>
+            <br><br><br>
+            <input type="checkbox">Terms Acception<br><br><br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <button type="submit">
+                Submit Now
+            </button>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
